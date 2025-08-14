@@ -3,4 +3,5 @@ This notebook allows the user to verify a NWS issued Terminal Aerodrome Forecast
 
 Note: The user MUST have a Synoptic API key to use this notebook. Synoptic's API is what is used to obtain observations. Synoptic API keys are available for free for National Weather Service employees.
 
-Note: This notebook uses the Aviation Weather Center API to obtain TAFs. This means TAF availability is limited to the last fifteen (15) days.
+Note:
+TAFs Within The Last 14 Days Are Pulled from the Aviation Weather Center's Database and older TAFs are Pulled from Iowa State's Archive
