@@ -11,10 +11,10 @@ Data Availability
 January 1, 1996 to Present - Iowa Environmental Mesonet (https://mesonet.agron.iastate.edu/wx/afos/list.phtml)
 
 Version History
-v2.02 - September 27, 2025. Fix narritave text
-v2.01 - September 26, 2025. Fix issue with partial TAFs issued between 18z-00z
-v2.00 - September 26, 2025. Switch all data to IEM, allow for within TAF period plotting and plotting for any TAF regardless of issuance time
+- v2.02 - September 27, 2025. Fix narritave text
+- v2.01 - September 26, 2025. Fix issue with partial TAFs issued between 18z-00z
+- v2.00 - September 26, 2025. Switch all data to IEM, allow for within TAF period plotting and plotting for any TAF regardless of issuance time
 
-v1.11 - September 24, 2025. Add ZIP file and file deletion capability
-v1.10 - August 17, 2025. Switch TAF plot to "step" graph
-v1.00 - August 2, 2025. Initial Release
+- v1.11 - September 24, 2025. Add ZIP file and file deletion capability
+- v1.10 - August 17, 2025. Switch TAF plot to "step" graph
+- v1.00 - August 2, 2025. Initial Release
