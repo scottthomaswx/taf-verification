@@ -1,7 +1,20 @@
 # taf-verification
-This notebook allows the user to verify a NWS issued Terminal Aerodrome Forecast (TAF) against observations. All the user needs to provide is the start time of the TAF and the relevant airport. All TAF groups will be plotted including FM groups, TEMPO groups, and PROB30 groups.
+TAF Verification Plot
 
-Note: The user MUST have a Synoptic API key to use this notebook. Synoptic's API is what is used to obtain observations. Synoptic API keys are available for free for National Weather Service employees.
+v2.02 - Scott Thomas
+Last Updated: 09/27/2025
 
-Note:
-TAFs Within The Last 14 Days Are Pulled from the Aviation Weather Center's Database and older TAFs are Pulled from Iowa State's Archive
+Description
+This program creates a plot showing forecast ceilings and visibility for a TAF Site (including PROB30s and TEMPO Groups) and compares it to observed ASOS Data. The interface runs off of IEM's TAF and METAR archives and uses the TAF issuance time (rather than the valid time) for lookup. TAF issuance times can be looked up by WFO and Date here. https://mesonet.agron.iastate.edu/wx/afos/list.phtml
+
+Data Availability
+January 1, 1996 to Present - Iowa Environmental Mesonet (https://mesonet.agron.iastate.edu/wx/afos/list.phtml)
+
+Version History
+v2.02 - September 27, 2025. Fix narritave text
+v2.01 - September 26, 2025. Fix issue with partial TAFs issued between 18z-00z
+v2.00 - September 26, 2025. Switch all data to IEM, allow for within TAF period plotting and plotting for any TAF regardless of issuance time
+
+v1.11 - September 24, 2025. Add ZIP file and file deletion capability
+v1.10 - August 17, 2025. Switch TAF plot to "step" graph
+v1.00 - August 2, 2025. Initial Release
